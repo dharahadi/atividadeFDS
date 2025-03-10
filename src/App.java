@@ -49,8 +49,8 @@ public class App {
         System.out.println(suv);
 
         System.out.println("\n\n----------------");
-        System.out.println("\nAbastencendo carro basico com gasolina");
-        utilitario.abastece(TipoCombustivel.GASOLINA, 70);
+        System.out.println("\nAbastencendo carro utilitario com gasolina");
+        utilitario.abastece(TipoCombustivel.DIESEL, 70);
         System.out.println(utilitario);
         System.out.println("\nViajando com o carro utilitario");
         utilitario.viaja(300);
