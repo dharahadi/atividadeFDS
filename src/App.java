@@ -12,7 +12,6 @@ public class App {
         System.out.println(utilitario);
         System.out.println(suv);
        
-
         System.out.println("\n\n----------------");
         System.out.println("\nAbastencendo carro basico com gasolina");
         basico.abastece(TipoCombustivel.GASOLINA, 55);
@@ -23,30 +22,12 @@ public class App {
         System.out.println(basico);
       
         System.out.println("\n\n----------------");
-        System.out.println("\nAbastencendo carro basico com gasolina");
-        utilitario.abastece(TipoCombustivel.GASOLINA, 70);
-        System.out.println(utilitario);
-        System.out.println("\nViajando com o carro utilitario");
-        utilitario.viaja(300);
-        utilitario.viaja(150);
-        System.out.println(utilitario);
-
         System.out.println("\nAbastencendo carro esportivo com gasolina");
         esportivo.abastece(TipoCombustivel.GASOLINA, 45);
         System.out.println(esportivo);
-
         System.out.println("\nViajando com o carro esportivo");
         esportivo.viaja(120);
         System.out.println(esportivo);
-
-
-        System.out.println("\nAbastencendo carro suv com gasolina");
-        suv.abastece(TipoCombustivel.FLEX, 55);
-        System.out.println(suv);
-
-        System.out.println("\nViajando com o carro suv");
-        suv.viaja(240);
-        System.out.println(suv);
 
         System.out.println("\n\n----------------");
         System.out.println("\nAbastencendo carro utilitario com gasolina");
@@ -56,5 +37,13 @@ public class App {
         utilitario.viaja(300);
         utilitario.viaja(150);
         System.out.println(utilitario);
+
+        System.out.println("\n\n----------------");
+        System.out.println("\nAbastencendo carro suv com gasolina");
+        suv.abastece(TipoCombustivel.FLEX, 55);
+        System.out.println(suv);
+        System.out.println("\nViajando com o carro suv");
+        suv.viaja(240);
+        System.out.println(suv);
     }
 }
